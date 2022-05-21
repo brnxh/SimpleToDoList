@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="main">
+        <h1>To-Do List</h1>
+        <input type="text" name ="item" id = "addTask" placeholder="Add an item">
+        <button type="submit" id="add-btn">Submit</button>
+        <button type = "reset" id="reset" onclick="clearField()">Clear List</button>
+    </div>
+    <div class="pop">
+        <h1>Tasks</h1>
+        <ul id="task-table">
+
+            <!-- <li>hello<span class = 'a'>x</span><span class = 'b'>done</span></li> -->
+        </ul>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
